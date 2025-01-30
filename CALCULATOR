@@ -1,2 +1,15 @@
-Console.WriteLine("Aitsaam Ali");
-Console.WriteLine("24-ST-008");
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter the first number: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the second number: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+        double MULTIPLICATION = num1 * num2;
+        Console.WriteLine($"The MULTIPLICATION OF {num1} and {num2} is {MULTIPLICATION }.");
+        Console.ReadLine();
+    }
+}
