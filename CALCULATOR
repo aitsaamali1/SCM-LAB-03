@@ -11,6 +11,8 @@ class Program
         Console.WriteLine($"The DIVISION between {num1} and {num2} is {DIVISION}.");
         double MULTIPLICATION = num1 * num2;
         Console.WriteLine($"The MULTIPLICATION OF {num1} and {num2} is {MULTIPLICATION }.");
+        double difference = num1 - num2;
+        Console.WriteLine($"The difference between {num1} and {num2} is {difference}.");
         Console.ReadLine();
     }
 }
